@@ -40,7 +40,9 @@ INSTALLED_APPS = [
 
     'leads.apps.LeadsConfig', # activate the new app
 
-    'rest_framework'
+    'rest_framework',
+
+    'frontend', # enable the frontend app
 ]
 
 MIDDLEWARE = [
